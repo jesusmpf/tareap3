@@ -1,0 +1,159 @@
+:root {
+
+    --tipo-normal: #A8A878;
+    --tipo-fuego: #F08030;
+    --tipo-agua: #6890F0;
+    --tipo-planta: #78C850;
+    --tipo-electrico: #F8D030;
+    --tipo-hielo: #98D8D8;
+    --tipo-lucha: #C03028;
+    --tipo-veneno: #A040A0;
+    --tipo-tierra: #E0C068;
+    --tipo-volador: #A890F0;
+    --tipo-psiquico: #F85888;
+    --tipo-bicho: #A8B820;
+    --tipo-roca: #B8A038;
+    --tipo-fantasma: #705898; 
+    --tipo-dragon: #7038F8;
+    --tipo-acero: #B8B8D0;
+    --tipo-hada: #F0B6BC;
+}
+
+
+* {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+li, ul {
+    list-style: none;
+}
+
+.header-button {
+    display: inline;
+    color: #fff;
+    padding: 4px;
+}
+
+.grass {
+    color:#121212;
+    background-color: var(--tipo-planta);
+}
+
+.fire {
+    color:#121212;
+    background-color: var(--tipo-fuego);
+}
+
+.water {
+    color:#121212;
+    background-color: var(--tipo-agua);
+}
+
+.poison {
+    color:#121212;
+    background-color: var(--tipo-veneno);
+}
+
+.flying {
+    color:#121212;
+    background-color: var(--tipo-volador);
+}
+
+.normal {
+    color:#121212;
+    background-color: var(--tipo-normal);
+}
+
+.fighting {
+    color:#121212;
+    background-color: var(--tipo-lucha);
+}
+
+.psychic {
+    color:#121212;
+    background-color: var(--tipo-psiquico);
+}
+
+.ghost {
+    color:#121212;
+    background-color: var(--tipo-fantasma);
+}
+
+.electric {
+    color:#121212;
+    background-color: var(--tipo-electrico);
+}
+
+.rock {
+    color:#121212;
+    background-color: var(--tipo-roca);
+}
+
+.ground {
+    color:#121212;
+    background-color: var(--tipo-tierra);
+}
+
+.steel {
+    color:#121212;
+    background-color: var(--tipo-acero);
+}
+
+.bug {
+    color:#121212;
+    background-color: var(--tipo-bicho);
+}
+
+.dragon {
+    color:#121212;
+    background-color: var(--tipo-dragon);
+}
+
+.ice {
+    color:#121212;
+    background-color: var(--tipo-hielo);
+}
+
+.fairy {
+    color:#121212;
+    background-color: var(--tipo-hada);
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+ .especie {
+    border: 1.5px solid #434141;
+    border-radius: 1rem;
+
+}
+
+.poke-img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.poke-img img {
+    width: 200px;
+}
+
+.poke-nombre, .poke-id {
+    text-align: center;
+}
+
+.poke-tipos p {
+    padding: 5px 7px;
+    border-radius: 1rem;  
+
+}
